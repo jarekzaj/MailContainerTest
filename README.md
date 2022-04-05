@@ -33,9 +33,20 @@ You should add suitable tests into the MailContainerTest.Test project.
 There are no additional constraints, use the packages and approach you feel appropriate, aim to spend no more than 2 hours. Please update the readme with specific comments on any areas that are unfinished and what you would cover given more time.
 
 
-### Unfinished
+### TODO
+
+Enums StandardLetter, LargeLetter and SmallParcel could be changed to classes sharing a common interface or a base class with a Validate method. 
+
+Possibly use a library for validation.
 
 Ideally more unit tests which cover things like nullable reference types (strings) in the solution.
+
 More error handling.
-Currently very basic separation of concern. Some more code duplication could be achieved. Possibly use a library for validation.
+
+Currently very basic separation of concern. 
+
+Some more code de-duplication could be achieved. 
+
 Identified an issue with AllowedMailTypes, which currently does a bit comparison - I believe this is not intended behaviour and has been identified in a couple of unit tests.
+
+
